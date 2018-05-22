@@ -1,4 +1,4 @@
-package Casestudy3;
+package Casestudy4;
 
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -11,7 +11,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class CaseStudy3 
+public class Casestudy4 
 {
 	static WebDriver driver;
     private static String url = "https://www.goindigo.in/?linkNav=home_header";
@@ -67,7 +67,7 @@ public class CaseStudy3
 
 public static void main(String[] args) {
 	
-	CaseStudy3 cs=new CaseStudy3();
+	Casestudy4 cs=new Casestudy4();
 	cs.Invoke();
 	cs.Booking();
 	
